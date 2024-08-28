@@ -2,7 +2,8 @@
 
 ### Hey, I am [Sheba Sulthana](linkedin.com/in/sheba-sulthana-9259b2222). I have made a chat app using reactJS and socket.io.
 ## Here is a Preview:
-![Chat App](2.jpg,3.jpg)
+![Chat App](2.jpg)
+![Chat App](3.jpg)
 
 A simple real-time chat application built with Node.js and Socket.io. The project features a pixel art aesthetic and allows multiple users to connect and exchange messages in real-time. This project is a playful experiment in combining a chat application with a retro, tech-inspired visual theme.
 
