@@ -1,23 +1,7 @@
-<!-- # Walkie-Talkie
-### Hey, I am [Sheba Sulthana](https://www.instagram.com/__thaxx__/). I have made a chat app using reactJS and socket.io.
-Have a look on it. https://ShebaSulthana.github.io/Walkie-Talkie/
-## THIS IS HOW IT LOOKS LIKE
- ![alt text](https://raw.githubusercontent.com/ShebaSulthana/Walkie-Talkie/main/eg.png)
- 
-  
-## <u>Social Profiles</u> :
-[Instagram](https://www.instagram.com/__thaxx__/)
-<br>
-<br>
-[Github](https://github.com/shebasulthana/)
-<br>
-<br>
-[Linked In](linkedin.com/in/sheba-sulthana-9259b2222)
-<br>
-<br>
-[Email ID](mailto:www.shebasulthana@gmail.com) -->
-
 # Walkie-Talkie Chat App
+
+### Hey, I am [Sheba Sulthana](linkedin.com/in/sheba-sulthana-9259b2222). I have made a chat app using reactJS and socket.io.
+Have a look on it. https://ShebaSulthana.github.io/Walkie-Talkie/
 
 ![Chat App](1.jpg)
 
