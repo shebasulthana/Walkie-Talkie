@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chat App</title>
+  <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+  <script defer src="script.js"></script>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url('1.jpg') no-repeat center center fixed;
+      background-size: cover;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    #message-container { 
+      width: 80%;
+      max-width: 2000px;
+      z-index: 1;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 10px; /* Space between messages */
+      padding: 20px;
+      overflow-y: auto;
+      max-height: 80vh; /* Limit the height and enable scrolling */
+    }
+
+    #message-container .message {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: bolder;
+      border: solid #181516 2px;
+      background-color: #eaeaea;
+      padding: 15px 50px;
+      font-size: larger;
+      color: black;
+      max-width: 60%;
+      text-align: center;
+      border-radius: 10px;
+    }
+
+    #message-container .user-message {
+      background-color: #181516;
+      color: white;
+      align-self: flex-end; /* Alignment for user's messages on the right */
+    }
+
+    #message-container .other-message {
+      background-color: #eaeaea;
+      color: black;
+      align-self: flex-start; /* Alignment for other users' messages on the left */
+    }
+
+    #send-container {
+      position: fixed;
+      padding: 10px;
+      bottom: 30px;
+      width: 80%;
+      max-width: 600px;
+      display: flex;
+      z-index: 1;
+    }
+
+    #message-input {
+      flex-grow: 3;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      font-size: 1em;
+    }
+
+    #send-button {
+      border-radius: 5px;
+      padding: 10px 20px;
+      margin-left: 10px;
+      border: none;
+      background-color: #181516;
+      color: white;
+      font-size: 1em;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="message-container"></div>
+  <form id="send-container">
+    <input type="text" id="message-input" placeholder="Type your message here...">
+    <button type="submit" id="send-button">Send</button>
+  </form>
+</body>
+</html>
