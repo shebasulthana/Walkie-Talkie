@@ -1,9 +1,8 @@
 # Walkie-Talkie Chat App
 
 ### Hey, I am [Sheba Sulthana](linkedin.com/in/sheba-sulthana-9259b2222). I have made a chat app using reactJS and socket.io.
-Have a look on it. https://ShebaSulthana.github.io/Walkie-Talkie/
-
-![Chat App](1.jpg)
+##Here is a Preview:
+![Chat App](2.jpg)
 
 A simple real-time chat application built with Node.js and Socket.io. The project features a pixel art aesthetic and allows multiple users to connect and exchange messages in real-time. This project is a playful experiment in combining a chat application with a retro, tech-inspired visual theme.
 
